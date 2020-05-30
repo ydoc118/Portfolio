@@ -1,22 +1,29 @@
-<<<<<<< HEAD
+body {
+    background-image: url(C:/Users/Cody/code/Portfolio/Assets/lightpaperfibers.png);
+    background-size: contain;
+}
+
+
 .codyNavFont {
     font-family: 'Lexend Tera', sans-serif;
 
 }
 
 .navbar-brand {
-    color: black;
+    color: white;
 }
 
 .nav-link {
-    color: black;
+    color: white;
 }
 
 .jumbotron {
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-b/1024x250/15/34/01/1f/anna-maria-island.jpg);
+    background-image: url(C:/Users/Cody/code/Portfolio/Assets/newJumboImg.jpg);
     background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+    margin-bottom: 30%;
 }
 
 .navbar {
@@ -24,33 +31,12 @@
     top: 0;
     z-index: 10;
     width: 100%;
+}
 
-=======
-.codyNavFont {
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    text-align: center;
     font-family: 'Lexend Tera', sans-serif;
-
-}
-
-.navbar-brand {
-    color: black;
-}
-
-.nav-link {
-    color: black;
-}
-
-.jumbotron {
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-b/1024x250/15/34/01/1f/anna-maria-island.jpg);
-    background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-.navbar {
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-
->>>>>>> 4d7cee810da49a475f4cb0fa5ade2b09196c888e
 }

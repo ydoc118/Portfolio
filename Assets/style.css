@@ -3,6 +3,40 @@ body {
     background-size: contain;
 }
 
+@media (min-width: 576px) {
+    .homeJumbo, .portfolioJumbo, .contactJumbo, .aboutMeJumbo {
+        background-size: cover;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        color: white;
+        margin-bottom: 30%;
+    }
+    .navbar-brand, .nav-link, .navbar-brand:hover, .nav-link:hover {
+        color: white;
+    }
+    .homeJumbo {
+        background-image: url(newJumboImg.jpg);
+    }
+    
+    .portfolioJumbo {
+        background-image: url(portfolio_jumbo.jpg);
+    }
+    
+    .contactJumbo {
+        background-image: url(contactJumbo.jpg);
+    }
+    
+    .aboutMeJumbo {
+        background-image: url(aboutmeJumbo.jpg);
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+    }
+}
 
 .codyNavFont {
     font-family: 'Lexend Tera', sans-serif;

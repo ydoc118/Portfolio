@@ -12,7 +12,7 @@ body {
     color: white;
 }
 
-.homeJumbo, .portfolioJumbo, .contactJumbo {
+.homeJumbo, .portfolioJumbo, .contactJumbo, .aboutMeJumbo {
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -32,6 +32,10 @@ body {
     background-image: url(contactJumbo.jpg);
 }
 
+.aboutMeJumbo {
+    background-image: url(aboutmeJumbo.jpg);
+}
+
 .navbar {
     position: absolute;
     top: 0;
@@ -48,6 +52,10 @@ body {
 
 .portfolioCard {
     margin-bottom: 100px;
+}
+
+.aboutMeCard {
+    margin-bottom: 500px;
 }
 
 .contactCard {

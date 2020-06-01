@@ -6,14 +6,9 @@ body {
 
 .codyNavFont {
     font-family: 'Lexend Tera', sans-serif;
-
 }
 
-.navbar-brand {
-    color: white;
-}
-
-.nav-link {
+.navbar-brand, .nav-link, .navbar-brand:hover, .nav-link:hover {
     color: white;
 }
 
@@ -34,9 +29,23 @@ body {
 }
 
 .card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Lexend Tera', sans-serif;
+    left: 15px;
+}
+
+.cardLink:hover, .cardLink {
+    color: inherit;
+}
+
+.stickyFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(lightpaperfibers.png);
+    color: black;
     text-align: center;
     font-family: 'Lexend Tera', sans-serif;
 }

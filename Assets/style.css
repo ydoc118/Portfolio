@@ -12,8 +12,7 @@ body {
     color: white;
 }
 
-.homeJumbo {
-    background-image: url(newJumboImg.jpg);
+.homeJumbo, .portfolioJumbo, .contactJumbo {
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -21,13 +20,16 @@ body {
     margin-bottom: 30%;
 }
 
+.homeJumbo {
+    background-image: url(newJumboImg.jpg);
+}
+
 .portfolioJumbo {
     background-image: url(portfolio_jumbo.jpg);
-    background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    color: white;
-    margin-bottom: 30%;
+}
+
+.contactJumbo {
+    background-image: url(contactJumbo.jpg);
 }
 
 .navbar {
@@ -46,6 +48,10 @@ body {
 
 .portfolioCard {
     margin-bottom: 100px;
+}
+
+.contactCard {
+    right: 15px;
 }
 
 .portfolioHead {

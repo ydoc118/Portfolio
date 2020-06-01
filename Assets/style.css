@@ -54,13 +54,15 @@ body {
     margin-bottom: 100px;
 }
 
-.aboutMeCard {
+.aboutMeCard, .contactCardBottom, .portfolioBottomCards {
     margin-bottom: 500px;
 }
 
 .contactCard {
     right: 15px;
 }
+
+
 
 .portfolioHead {
     text-align: center;

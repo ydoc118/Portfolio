@@ -12,8 +12,17 @@ body {
     color: white;
 }
 
-.jumbotron {
+.homeJumbo {
     background-image: url(newJumboImg.jpg);
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+    margin-bottom: 30%;
+}
+
+.portfolioJumbo {
+    background-image: url(portfolio_jumbo.jpg);
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -33,6 +42,15 @@ body {
     text-align: center;
     font-family: 'Lexend Tera', sans-serif;
     left: 15px;
+}
+
+.portfolioCard {
+    margin-bottom: 100px;
+}
+
+.portfolioHead {
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 .cardLink:hover, .cardLink {

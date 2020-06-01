@@ -1,5 +1,5 @@
 body {
-    background-image: url(C:/Users/Cody/code/Portfolio/Assets/lightpaperfibers.png);
+    background-image: url(lightpaperfibers.png);
     background-size: contain;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url(C:/Users/Cody/code/Portfolio/Assets/newJumboImg.jpg);
+    background-image: url(newJumboImg.jpg);
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;

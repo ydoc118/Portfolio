@@ -51,6 +51,7 @@ body {
 
 .portfolioCard {
     margin-bottom: 100px;
+    height: 250px;
 }
 
 .aboutMeCard, .contactCardBottom, .portfolioBottomCards {
@@ -79,4 +80,33 @@ body {
     color: black;
     text-align: center;
     font-family: 'Lexend Tera', sans-serif;
+}
+
+#card-1, #card-2, #card-3, #card-4 {
+    background-size: cover;
+    height: 225px;
+}
+
+.title, .description {
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 100px;
+}
+
+#card-1 {
+    background-image: url(project-pic.png);
+}
+
+#card-2 {
+    background-image: url(scheduler-pic.png);
+}
+
+#card-3 {
+    background-image: url(Weather-pic.png);
+}
+
+#card-4 {
+    background-image: url(password-pic.png);
 }

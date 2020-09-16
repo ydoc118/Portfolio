@@ -83,7 +83,7 @@ body {
     font-family: 'Lexend Tera', sans-serif;
 }
 
-#card-1, #card-2, #card-3, #card-4 {
+#card-1, #card-2, #card-3, #card-4, #card-5, #card-6 {
     background-size: cover;
     height: 225px;
 }
@@ -110,4 +110,12 @@ body {
 
 #card-4 {
     background-image: url(password-pic.png);
+}
+
+#card-5 {
+    background-image: url(week13img.png);
+}
+
+#card-6 {
+    background-image: url(voteApp.png);
 }

@@ -55,6 +55,11 @@ body {
     height: 250px;
 }
 
+.portfolioBottom {
+    margin-bottom: 300px;
+    height: 250px;
+}
+
 .aboutMeCard, .contactCardBottom, .portfolioBottomCards {
     margin-bottom: 100px;
 }
